@@ -10,10 +10,10 @@ link
 
 ## Screenshots
 
-   ![First screenshot](Horiseon/Desktop/Coding-Bootcamp/01-HTML-CSS-Git/Horiseon/Develop/assets/images/Screenshot-Readme-1.png)
+   ![First screenshot](/assets/images/Screenshot-Readme-1.png)
    
 
 
 
-   ![Second Screenshot](Horiseon/Desktop/Coding-Bootcamp/01-HTML-CSS-Git/Horiseon/Develop/assets/images/Screenshot-Readme-2.png)
+   ![Second Screenshot](/assets/images/Screenshot-Readme-2.png)
  
