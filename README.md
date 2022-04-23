@@ -8,10 +8,12 @@ Made edits to HTML and CSS documents to ensure code follow accesibility standard
 
 
 
-    ![First screenshot](assets/images/screenshot-readme-1.png)
+##Screenshots
+
+    ![First screenshot](Develop/assets/images/screenshot-readme-1.png)
    
 
 
 
-    ![Second Screenshot](assets/images/screenshot-readme-2.png)
+    ![Second Screenshot](Develop/assets/images/screenshot-readme-2.png)
  
