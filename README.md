@@ -6,7 +6,7 @@ Made edits to HTML and CSS documents to ensure code follow accesibility standard
 
 ## Deployed Website
 
-link
+https://prandrea.github.io/Horiseon/
 
 ## Screenshots
 
