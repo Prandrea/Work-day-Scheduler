@@ -8,11 +8,10 @@ Made edits to HTML and CSS documents to ensure code follow accesibility standard
 
 
 
-    ```md
-    ![alt text](assets/images/screenshot-readme-1.png)
-    ```
+    ![First screenshot](assets/images/screenshot-readme-1.png)
+   
 
 
-    ```md
-    ![alt text](assets/images/screenshot-readme-2.png)
-    ```
+
+    ![Second Screenshot](assets/images/screenshot-readme-2.png)
+ 
