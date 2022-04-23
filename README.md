@@ -10,10 +10,10 @@ link
 
 ## Screenshots
 
-   ![First screenshot](/assets/images/Screenshot-Readme-1.png)
+   ![First screenshot](./assets/images/Screenshot-Readme-1.png)
    
 
 
 
-   ![Second Screenshot](/assets/images/Screenshot-Readme-2.png)
+   ![Second Screenshot](./assets/images/Screenshot-Readme-2.png)
  
