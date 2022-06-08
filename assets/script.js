@@ -15,28 +15,29 @@
 
 
 //Current day is displayed when planner is opened
+$("#currentDay").append(moment().format("dddd, MMMM Do YYYY"));
 
 //Planner is loaded from local storage
-// var workday = {};
-// var loadPlanner = function () {
+var workday = {};
+var loadPlanner = function () {
 
-// workday = JSON.parse(localStorage.getItem(savedtasks));
-//     if (!workday) {
-//         workday = {
-//           "9am": "",
-//           "10am": "",
-//           "11am": "",
-//           "12pm": "",
-//           "1pm": "",
-//           "2pm": "",
-//           "3pm": "",
-//           "4pm": "",
-//           "5pm": "",
-//         };
-//       }
+workday = JSON.parse(localStorage.getItem(savedtasks));
+    if (!workday) {
+        workday = {
+          "9am": "",
+          "10am": "",
+          "11am": "",
+          "12pm": "",
+          "1pm": "",
+          "2pm": "",
+          "3pm": "",
+          "4pm": "",
+          "5pm": "",
+        };
+      }
 
 
-// }
+}
 
 
 
@@ -46,15 +47,17 @@
 
 //time blocks are color-coded to indicate whether it is in the past, present or future
 //use Moment.js?
+const timeblock = Number(newHour.attr("id"));
 
+      const blocktextArea = $('<textarea class="col-8 col-lg-10"></textarea>');
 
-// if (hourNum < hour) {
-//     textArea.addClass("past");
-//   } else if (hourNum === hour) {
-//     textArea.addClass("present");
-//   } else {
-//     textArea.addClass("future");
-//   }
+if (timeblock < hour) {
+    textArea.addClass("past");
+  } else if (timeblock === hour) {
+    blocktextArea.addClass("present");
+  } else {
+    blocktextArea.addClass("future");
+  }
 
 
 
